@@ -28,7 +28,7 @@ public class Sample {
         J48 classifier =null;
         try {
         //Classifier deserialization
-        classifier = (J48) weka.core.SerializationHelper.read("/Users/hendri_k/Documents/Model_Terbaik_FDS/ModelJ48.model");
+        classifier = (J48) weka.core.SerializationHelper.read(args[0]);
       
         }catch(Exception ex){
             ex.printStackTrace();
