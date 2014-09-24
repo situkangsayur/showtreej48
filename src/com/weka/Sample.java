@@ -50,7 +50,7 @@ public class Sample {
         // display classifier
         final javax.swing.JFrame jf
                 = new javax.swing.JFrame("Weka Classifier Tree Visualizer: J48");
-        jf.setSize(1024, 640);
+        jf.setSize(1600, 1024);
         jf.getContentPane().setLayout(new BorderLayout());
         TreeVisualizer tv = null;
         try {
